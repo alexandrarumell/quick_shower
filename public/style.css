@@ -1,5 +1,7 @@
 * {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 body {
     background:
@@ -11,11 +13,12 @@ body {
     background-size:160px 160px} 
 
 #Header {
-    margin-top: 100px;
+    margin: 100px auto 0px;
     font-size: 150px;
+    width: 60%;
 }
 
-h1 {
+h1, #contactparagraph {
     color: darkblue;
     background-color: white;
     border: 10px solid rgba(0,0,128,.6);
@@ -23,10 +26,11 @@ h1 {
     margin: 15px 50px 15px 10px;
 
 }
+
 #total {position: fixed}
 
-#wrapper1 {
-    margin: 30px 100px 15px 10px; 
+.wrapper1 {
+    margin: 50px 100px 20px 10px; 
     padding: 10px;
     position: fixed;
     z-index: 5;
@@ -34,11 +38,12 @@ h1 {
     margin-bottom: 20px;
 }
 
-#wrapper2 { color: darkblue;
+.wrapper2 { color: darkblue;
     background-color: white;
     border: 10px solid rgba(0,0,128,.6);
     padding: 10px;
     margin-right: 600px;
+    margin-top: 30px;
 margin-bottom: 30px;
 width: 65%;
 z-index: 5;}
@@ -64,16 +69,35 @@ p {
     padding: 0;
     z-index: 15;
 }
-nav li {background: rgba(0,0,128,.6);
+nav li {
+    background: rgba(0,0,128,.6);
     border-top-right-radius: 360px;
     border-top-left-radius: 360px; 
     text-align: center;
     float: right;
-    padding-right: 15px;
+    padding-right: 30px;
     padding-top: 0px;
     color: orange;  
-    font-size: 30px;}
-#photo_wrapper {z-index: 10; margin-left: 600px; padding-top: 300px; top: 200px;}
+    font-size: 30px;
+    list-style-type: none;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:white;
+}
+
+#photo_wrapper {
+    z-index: 10; 
+    margin-left: 600px; 
+    padding-top: 300px; 
+    top: 200px;
+}
+
 #man {height: 300px;}
 #mudders {height: 300px;}
 #cloths {height: 300px;}
@@ -85,7 +109,7 @@ footer {
     background-color:black; 
     color:orange; 
     font-size: 20px; 
-    line-height: 5px; 
+    line-height: 45px; 
     bottom:0; 
     position:fixed; 
     width: 100%; 
@@ -95,13 +119,17 @@ footer {
 #shower {
     margin-top: 100px; 
     height: 200px; 
-    margin-left: 30%; 
+    margin-left: 30%;
+    margin-bottom: 50px; 
     margin-right: auto; 
     float: left;
 }
 
 #contact {
     clear: both;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form { 
