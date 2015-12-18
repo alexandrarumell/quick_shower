@@ -24,6 +24,7 @@ h1 {
 
 }
 #total {position: fixed}
+
 #wrapper1 {
     margin: 30px 100px 15px 10px; 
     padding: 10px;
@@ -76,8 +77,29 @@ nav li {background: rgba(0,0,128,.6);
 #man {height: 300px;}
 #mudders {height: 300px;}
 #cloths {height: 300px;}
-footer {z-index: 6; bottom: 0; line-height: 45px; margin-top: 100px;}
-#shower{margin-top: 100px; height: 200px; margin-left: 30%; margin-right: auto; float: left;}
+
+footer {
+    z-index: 6; 
+    line-height: 45px;  
+    height: 50px; 
+    background-color:black; 
+    color:orange; 
+    font-size: 20px; 
+    line-height: 5px; 
+    bottom:0; 
+    position:fixed; 
+    width: 100%; 
+    clear: both;
+}
+
+#shower {
+    margin-top: 100px; 
+    height: 200px; 
+    margin-left: 30%; 
+    margin-right: auto; 
+    float: left;
+}
+
 #contact {
     clear: both;
 }
@@ -101,7 +123,7 @@ input[type=submit] {
     padding: 5px;
     display: block;
     width: 105px;
-    margin: 0 auto;
+    margin: 0px auto 100px;
     outline: none;
     border: 4px solid rgba(0,0,128,.6);
     border-radius: 58px;
