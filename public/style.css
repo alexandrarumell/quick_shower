@@ -1,8 +1,9 @@
-body {margin: 0 auto;
+
+body {
     background:
-        -webkit-radial-gradient(magenta 20%, yellow: 40%; transparent 60%);
-       black;
+        -webkit-radial-gradient(black 2.5%, rgba(0,0,128,.6) 35%, transparent 60%),
+        -webkit-radial-gradient(orange 15%, rgba(255,255,0,.4) 20%, transparent 50%),
+        rgba(0,128,128,.3);
     background-position: 0 0, 80px 80px;   
     -webkit-background-size:160px 160px;
-    -moz-background-size:160px 160px;
-    background-size:160px 160px;}
+    background-size:160px 160px}
