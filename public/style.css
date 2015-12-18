@@ -47,8 +47,8 @@ nav li {background: rgba(0,0,128,.6); border-top-right-radius: 360px; border-top
 
 #man {margin-top: 50px; height: 300px; display: block; float: left;}
 #mudders {margin-top: 50px; margin-right: auto; margin-left: auto; height: 300px; display: block; clear: both;}
-#cloths {margin-top: 50px; height: 300px; display: block; float: right;}
-footer {clear: both;}
+#cloths {margin-top: 50px; height: 300px; display: block; float: right; margin-bottom: 50px; }
+footer {clear: both; height: 50px; background-color: black; color: orange; font-size: 20px; line-height: 45px; bottom:0; margin-top: 100px;}
 h1{margin-top: 75px;}
 #shower{margin-top: 100px; height: 200px; margin-left: 30%; margin-right: auto; float: left;}
 #contact {
